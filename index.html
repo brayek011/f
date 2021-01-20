@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Radio Tunisia </title>
+
+    <link rel="icon" href="img/logo.jpg" />
+    <link rel="shortcut" href="img/logo.jpg" />
+    <link rel="apple-touche-icon" href="img/logo.jpg" />
+
+
+    <meta name="description" content="site web"/>
+    <meta name="keywords" content="developer"/>
+    <meta name="author" content="Selmi Mabrouk"/>
+
+
+    <!-- Pour partage cette page sur Facebbok :  -->
+    <meta property="og:title" content="Selmi Mabrouk " />
+    <meta property="og:description" content="Développeur Web & Mobile" />
+    <meta property="og:image" content="img/logo.jpg" />
+    <meta property="og:image:width" content="1200" />  
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:type" content="website" /> 
+
+
+<!-- Pour partage cette page sur twitter :  -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Selmi Mabrouk ">
+    <meta name="twitter:description" content="Selmi Mabrouk - Développeur Web & Mobile">
+    <meta name="twitter:image" content="par blogger">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@">
+
+  
+
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+  rel="stylesheet"
+/>
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+<!-- Relation une fichier css avec html !!!-->
+<link rel="stylesheet" href="style.css"/> 
+         
+ </head>
+
+<body id="body"> 
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="justify-content: flex-start;"> 
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link" href="https://m.facebook.com/Brayek011">About Me</a>
+        <!-- <a class="nav-item nav-link" href="#">Projects</a> -->
+        <!-- <a class="nav-item nav-link" href="#">Contact</a> -->
+      </div>
+    </div>
+
+
+    <a class="navbar-brand" href="https://m.facebook.com/Brayek011" > Selmi Mabrouk
+        <img src="img/mon-img.PNG" width="30" height="30" class="d-inline-block align-top" style="border-radius: 60%;" >
+        
+      </a>
+
+  </nav>
+
+
+
+
+  <div class="alert alert-warning" role="alert" style="margin-top: 58px; height: 55px; " >
+    
+    <p  id="text" > Radio Tunis  </p> 
+
+
+
+  </div>
+
+ 
+
+<main id="main" >
+
+<header  >
+
+  
+
+
+<img src="img/logo_radio.jpg" />
+
+<h1> Live Radio </h1>
+
+<marquee behavior="alternate" scrollamount="10" id="title"  >  </marquee>
+
+
+
+
+
+
+
+</header>
+    
+
+
+
+
+
+<div id="div0">  
+<div id="div">
+
+
+  <article id="button">
+
+    <img src="img/down.png" id="back" />
+    <img src="img/play.png" id="play"  />
+    <img src="img/pause.png" id="pause"  />
+    <img src="img/up.png" id="up"/>
+
+    <audio src="" id="audio" >  </audio>
+
+  </article>
+
+
+
+
+
+<article id="control" >
+
+
+  <h4  > Volume </h4>
+  <input type="range" id="volume" />
+
+  <h4> Vitesse </h4>
+  <input type="range" id="vitess" max="200" min="0" />
+
+</article>
+
+
+
+<article style="display: block;  background-color: rgb(216, 216, 216);
+width: 37px; margin-top: 10px; margin-left: 1%;">  
+
+  <div class="spinner-grow text-primary" role="status" >
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-secondary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-success" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-warning" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-info" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  
+  <div class="spinner-grow text-dark" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  
+  
+  </article>
+
+
+
+
+
+  <article style="display: block;  background-color: rgb(216, 216, 216);
+  width: 37px; margin-top: -238px; margin-left: 92%; " id="styll" >  
+  
+    <div class="spinner-grow text-primary" role="status" >
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-secondary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    
+    <div class="spinner-grow text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    
+    
+    </article>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+<!-- <div style="background-color: yellow;">
+
+
+  
+
+</div> -->
+
+
+</main>
+
+
+
+
+<footer style="margin-top: 920px;" > 
+
+<div class="card text-center">
+  <div class="card-header" id="tra_about">
+    About Us
+  </div>
+  <div class="card-body">
+    <h5 class="card-title" id="tra_ing">I am from Tunisia and I work as a computer Industrial and IT engineer</h5>
+    
+    <a href="mailto: mabrouk.selmi.92@gmail.com" class="btn btn-primary" id="tra_contact">Contact Us</a>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://m.facebook.com/Brayek011">Selmi Mabrouk</a>
+  </div>
+</div>
+
+
+
+</footer> 
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="script.js" >  </script>
+
+</body>
+</html>
